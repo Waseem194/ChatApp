@@ -1,5 +1,4 @@
-const socket = io("http://localhost:8000");
-
+const socket = io("https://chatapp-production-2659.up.railway.app");
 // Username set karein jab connect ho
 const username = "User_" + Math.floor(Math.random() * 1000);
 document.getElementById("display-name").textContent = username;
