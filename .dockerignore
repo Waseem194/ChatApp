@@ -1,0 +1,20 @@
+# Ignore Git history
+.git
+.gitignore
+
+# Ignore local Python environment
+venv/
+env/
+.env
+__pycache__/
+*.pyc
+
+# Ignore Docker files themselves
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Ignore IDE and OS files
+.vscode/
+.idea/
+.DS_Store
